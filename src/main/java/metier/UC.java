@@ -1,14 +1,19 @@
 package metier;
 
-import dao.usb.IUsb;
-import dao.vga.IVga;
+import dao.IUsb;
+import dao.IVga;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Component
 public class UC {
-    private IUsb usb;
-    private IVga vga;
+    @Autowired@Qualifier("Souris")
+     IUsb usb;
+    @Autowired@Qualifier("VideoProj")
+     IVga vga;
     public UC(IUsb usb) {
         this.usb = usb;
     }
@@ -17,7 +22,6 @@ public class UC {
     }
     public UC() {
     }
-
     public UC(IUsb usb, IVga vga) {
         this.usb = usb;
         this.vga = vga;

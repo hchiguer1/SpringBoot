@@ -1,4 +1,4 @@
-package dao.usb;
+package dao;
 
 public interface IUsb {
     int read();

@@ -1,15 +1,13 @@
-package dao.hdmi;
+package dao;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
-
-
+@Component("TV")
 public class Tv implements IHdmi{
     @Override
     public void print(byte[] b) {
         String s= new String(b);
-        System.out.println(s);
+        System.out.println("TV "+s);
     }
 
 

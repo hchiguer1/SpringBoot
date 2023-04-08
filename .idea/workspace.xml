@@ -39,11 +39,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/!Master BDCC/BD semi-structurées et Web Services XML/appli-docs/intellij idea/EXO2_ioc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "74854ffe5d8c208b63db71d1a06e2cc5",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,7 +96,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680035228448</updated>
-      <workItem from="1680035229782" duration="14031000" />
+      <workItem from="1680035229782" duration="16922000" />
+      <workItem from="1680957601952" duration="1768000" />
     </task>
     <servers />
   </component>

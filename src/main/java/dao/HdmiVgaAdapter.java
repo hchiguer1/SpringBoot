@@ -1,10 +1,13 @@
-package metier;
+package dao;
 
-import dao.hdmi.IHdmi;
-import dao.vga.IVga;
-
+import dao.IHdmi;
+import dao.IVga;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+@Primary
+@Component
 public class HdmiVgaAdapter implements IVga{
-    private IHdmi hdmi;
+     IHdmi hdmi;
 
     public HdmiVgaAdapter(IHdmi hdmi) {
         this.hdmi = hdmi;

@@ -1,11 +1,13 @@
-package dao.usb;
+package dao;
 
 import org.springframework.stereotype.Repository;
 
-@Repository("clavier")
+//@Repository("clavier")
 public class Clavier implements IUsb{
     @Override
     public int read() {
-      return 1;
+      int b=3;
+        System.out.println("Je suis une clavier : ");
+        return b;
     }
 }

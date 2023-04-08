@@ -1,9 +1,9 @@
 package presentation;
 
-import dao.hdmi.Tv;
-import dao.usb.Clavier;
-import dao.vga.Ecran;
-import metier.HdmiVgaAdapter;
+import dao.Tv;
+import dao.Clavier;
+import dao.Ecran;
+import dao.HdmiVgaAdapter;
 import metier.UC;
 
 import java.io.UnsupportedEncodingException;

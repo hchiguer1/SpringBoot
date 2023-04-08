@@ -1,8 +1,9 @@
-package dao.vga;
+package dao;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Component;
 
 //@Repository("ecran")
+@Component("Ecran")
 public class Ecran implements IVga{
     @Override
     public void print(String s) {
